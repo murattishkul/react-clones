@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "twitter-clone-292b4",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
